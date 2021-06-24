@@ -221,13 +221,35 @@
                 
                 
                 <h1 id="apuntes">Apuntes</h1>
-<p><code>java linenos=true linenostart=42 hl_lines="3" title="An Example Code Block" 
-public class Hola{
-    public static void main(String[] args){
-        System.out.println("Hola Mundo");
-    }
-}</code>
-Otra[^1] cosa</p>
+<p><div class="annotate highlight"><pre><span></span><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Hola</span><span class="p">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">){</span>
+        <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hola Mundo&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+Otra[^1] cosa &rdquo; Prueba &lt;&gt;</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>HTML Document<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div>
+<h1 id="mas-pruebas">Más pruebas</h1>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nb">document</span><span class="nx">$</span><span class="p">.</span><span class="nx">subscribe</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="c1">// (1)</span>
+<span class="hll">  <span class="kd">var</span> <span class="nx">tables</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="cm">/* (2) */</span> <span class="s2">&quot;article table&quot;</span><span class="p">)</span>
+</span><span class="hll">  <span class="nx">tables</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">table</span><span class="p">)</span> <span class="p">{</span>
+</span>    <span class="k">new</span> <span class="nx">Tablesort</span><span class="p">(</span><span class="nx">table</span><span class="p">)</span>
+  <span class="p">})</span>
+<span class="p">})</span>
+</code></pre></div>
+</td></tr></table>
+<ol>
+<li>&hellip;</li>
+<li>&hellip;</li>
+</ol>
+<p>Otras pruebas
+The <code class="highlight"><span class="nb">range</span><span class="p">()</span></code> function is used to generate a sequence of numbers.</p>
                 
               
               
